@@ -20,4 +20,8 @@
       <ProjectReference Include="..\PublicationPlatform.PostgresRepositories\PublicationPlatform.PostgresRepositories.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="wwwroot" />
+    </ItemGroup>
+
 </Project>
