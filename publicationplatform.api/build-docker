@@ -1,0 +1,6 @@
+#bash
+rm -rf app
+tsc
+dotnet publish -o app -c release
+docker build -t lykkex/publication-platform-api .
+docker push lykkex/publication-platform-api
